@@ -1,0 +1,18 @@
+# no need to include the backups directory.
+*-backups
+*.bak
+*.FCStd1
+
+# ...or the lock files.
+*.lck
+
+# ..or the autosaves.
+_autosave-*
+*.dxf~
+/#*.dxf
+
+# or this.
+fp-info-cache
+
+# KiCAD history directory
+.history

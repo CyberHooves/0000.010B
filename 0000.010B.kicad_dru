@@ -1,0 +1,5 @@
+(version 1)
+(rule barrier
+	(condition "A.NetName == 'GND' && B.NetName == 'GND1'")
+	(constraint clearance(min 4mm))
+)
