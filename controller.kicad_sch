@@ -2415,6 +2415,277 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Temperature:MCP9700Ax-ETT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP9700Ax-ETT"
+				(at 1.27 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001942g.pdf"
+				(at -3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "temperature sensor thermistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP9700Ax-ETT_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.175) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.175) (xy -4.445 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -4.445 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.905) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -4.445 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0.635) (xy -4.445 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 3.175)
+					(mid -4.445 3.8073)
+					(end -3.81 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.445 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 -1.905)
+					(end -5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MCP9700Ax-ETT_1_1"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "V_{OUT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -2956,10 +3227,6 @@
 		(uuid "39911873-b24b-4ffb-926d-d00a66ca7158")
 	)
 	(no_connect
-		(at 180.34 67.31)
-		(uuid "4ba62ba8-5eb3-4b14-8423-c35f96332928")
-	)
-	(no_connect
 		(at 144.78 92.71)
 		(uuid "afdf4307-892d-4bdf-a4bc-704951bb3185")
 	)
@@ -3291,7 +3558,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 72.39) (xy 186.69 72.39)
+			(xy 180.34 69.85) (xy 186.69 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3381,6 +3648,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 74.93) (xy 186.69 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67855cb1-7a4f-4c0f-94a6-fbd74378bdd3")
+	)
+	(wire
+		(pts
 			(xy 156.21 45.72) (xy 162.56 45.72)
 		)
 		(stroke
@@ -3441,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 74.93) (xy 186.69 74.93)
+			(xy 180.34 72.39) (xy 186.69 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3861,6 +4138,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d801ed68-25d3-493f-ae9b-86448328f3f4")
+	)
+	(wire
+		(pts
 			(xy 142.24 59.69) (xy 142.24 49.53)
 		)
 		(stroke
@@ -3991,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 69.85) (xy 186.69 69.85)
+			(xy 180.34 67.31) (xy 186.69 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4048,6 +4335,16 @@
 			(justify right bottom)
 		)
 		(uuid "304df97b-8c40-4159-b31a-ee295dc2ffa8")
+	)
+	(label "TEMP"
+		(at 172.72 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33bd6ffe-f318-4410-985c-a9a21764f035")
 	)
 	(label "LED1"
 		(at 133.35 105.41 0)
@@ -4119,7 +4416,7 @@
 		)
 		(uuid "74e928dc-d881-4652-927c-6bf8d2a90050")
 	)
-	(label "A1"
+	(label "A2"
 		(at 133.35 110.49 0)
 		(effects
 			(font
@@ -4139,6 +4436,16 @@
 		)
 		(uuid "8a90597c-cc93-4eb8-bd81-4a2bdee87834")
 	)
+	(label "TEMP"
+		(at 186.69 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f628f3d-1841-4eda-8359-74a34a5ca1d3")
+	)
 	(label "LED2"
 		(at 114.3 60.96 270)
 		(effects
@@ -4149,8 +4456,8 @@
 		)
 		(uuid "95d72942-7fcf-4f62-ac3e-669c92d28a41")
 	)
-	(label "A2"
-		(at 186.69 72.39 180)
+	(label "A1"
+		(at 186.69 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4160,7 +4467,7 @@
 		(uuid "99cafbbb-7315-4e91-968a-24323950169e")
 	)
 	(label "A0"
-		(at 186.69 69.85 180)
+		(at 186.69 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4200,7 +4507,7 @@
 		(uuid "c51b954f-a6b2-411f-95a4-fa6269f183a4")
 	)
 	(label "A3"
-		(at 186.69 74.93 180)
+		(at 186.69 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6193,6 +6500,94 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 156.21 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e9de4c9-a692-44e0-8f64-691b7cec9ff4")
+		(property "Reference" "#PWR038"
+			(at 156.21 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "A3"
+			(at 156.21 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d85beb6c-f0d7-40e6-8684-41b256c32eae")
+		)
+		(instances
+			(project "0000.010B"
+				(path "/7b1b7ec5-60f7-444b-a8f9-887f2618112b/c59c9359-ea69-40b4-a886-ad2c28387737"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 233.68 78.74 0)
 		(unit 1)
@@ -7015,6 +7410,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Temperature:MCP9700Ax-ETT")
+		(at 156.21 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be0628ae-9841-4584-b657-2e49bb30cb33")
+		(property "Reference" "U1"
+			(at 147.32 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCP9700Ax-ETT"
+			(at 147.32 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 156.21 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001942g.pdf"
+			(at 152.4 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low power, analog thermistor temperature sensor, ±2C accuracy, -40C to +125C, in SOT-23-3"
+			(at 156.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f564348-1b3e-4a59-8f99-df3cb9fcd859")
+		)
+		(pin "1"
+			(uuid "490f77c3-1362-4cb1-bbcd-eb6f43cd0999")
+		)
+		(pin "3"
+			(uuid "563e2256-f941-4e12-aa7a-7554c37849b6")
+		)
+		(instances
+			(project "0000.010B"
+				(path "/7b1b7ec5-60f7-444b-a8f9-887f2618112b/c59c9359-ea69-40b4-a886-ad2c28387737"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 162.56 43.18 0)
 		(unit 1)
@@ -7718,6 +8198,83 @@
 			(project "0000.010B"
 				(path "/7b1b7ec5-60f7-444b-a8f9-887f2618112b/c59c9359-ea69-40b4-a886-ad2c28387737"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe4ff059-b263-4f71-88c3-83677fee1a3b")
+		(property "Reference" "#PWR030"
+			(at 156.21 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e9e2e33-4940-4dfe-9813-82dc887e34c1")
+		)
+		(instances
+			(project "0000.010B"
+				(path "/7b1b7ec5-60f7-444b-a8f9-887f2618112b/c59c9359-ea69-40b4-a886-ad2c28387737"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
